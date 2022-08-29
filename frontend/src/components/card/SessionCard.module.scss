@@ -1,0 +1,28 @@
+.question {
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sessionCard {
+    border: 1px solid #fff;
+    min-height: fit-content;
+}
+
+.sessionCard:hover {
+  cursor: move;
+  box-shadow: 1px 5px 5px #777;
+}
+
+.sessionCardWrapper {
+  margin: 1em;
+}
+
+.sessionTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hidden {
+  visibility: hidden;
+}

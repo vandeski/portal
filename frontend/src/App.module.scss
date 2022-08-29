@@ -1,0 +1,38 @@
+.App {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background-color: #282c34;
+  padding: 0 2rem 0 2rem;
+  height: 8vh;
+  width: calc(100vw - 4rem);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.buttonRow Button {
+  margin: 0 0.5rem;
+  color: #fff;
+  border: #fff 1px solid;
+}
+
+.buttonRow Button:hover {
+  box-shadow: #fff 0px 0px 10px;
+}
+
+.dashboard {
+  position: relative;
+  width: calc(100vw - 2rem);
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1em auto; 
+}
