@@ -96,7 +96,7 @@ Each question would be its own component. We could allow the user to create open
 
 ##### Validation
 
-Currently, I am validating on the frontend but would ideally like to add validation middleware on the backend. This would cover calls from postman and other APIs. 
+Currently, I am not validating on the frontend but would ideally like to add validation middleware on the backend. This would cover calls from postman and other APIs. 
 
 ##### Testing
 
